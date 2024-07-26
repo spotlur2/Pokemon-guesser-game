@@ -1,0 +1,116 @@
+import java.lang.Math;
+import java.util.ArrayList;
+
+class infoListName {
+  public String iLN(int num) { 
+    String name;
+    ArrayList<String> names = new ArrayList<String>();
+  
+    //names
+    names.add("Pikachu");
+    names.add("Poliwag");
+    names.add("Aggron");
+    names.add("Marowak");
+    names.add("Bulbasaur");
+    names.add("Carvanha");
+    names.add("Caterpie");
+    names.add("Butterfree");
+    names.add("Nidoqueen");
+    names.add("Exeggutor");
+    names.add("Magmar");
+    names.add("Miltank");
+    names.add("Manectric");
+    names.add("Zebstrika");
+    names.add("Serperior");
+    names.add("Stunfisk");
+    names.add("Lickilicky");
+    names.add("Pupitar");
+    names.add("Zangoose");
+    names.add("Minun");
+    names.add("Seviper");
+    names.add("Togetic");
+    names.add("Litleo");
+    names.add("Flaaffy");
+    names.add("Spoink");
+    names.add("Deerling");
+    names.add("Mankey");
+    names.add("Buneary");
+    names.add("Phanpy");
+    names.add("Throh");
+    names.add("Nidoran");
+    names.add("Drilbur");
+    names.add("Cubone");
+    names.add("Magnemite");
+    names.add("Chikorita");
+    names.add("Drowzee");
+    names.add("Jigglypuff");
+    names.add("Bouffalant");
+    names.add("Krabby");
+    names.add("Froakie");
+    names.add("Abra");
+    names.add("Wailmer");
+    names.add("Vigorath");
+    names.add("Gulpin");
+    names.add("Luxio");
+    names.add("Croagunk");
+    names.add("Drapion");
+    names.add("Amaura");
+    names.add("Shuppet");
+    names.add("Dragonair");
+    names.add("Nidorino");
+    names.add("Piplup");
+    names.add("Prinplup");
+    names.add("Excadrill");
+    names.add("Snorlax");
+    names.add("Staryu");
+    names.add("Panpour");
+    names.add("Shellder");
+    names.add("Diglett");
+    names.add("Pineco");
+    names.add("Furret");
+    names.add("Ivysaur");
+    names.add("Feraligatr");
+    names.add("Mareep");
+    names.add("Tornadus");
+    names.add("Exeggcute");
+    names.add("Girafarig");
+    names.add("Tangela");
+    names.add("Bewear");
+    names.add("Mawile");
+    names.add("Starly");
+    names.add("Crustle");
+    names.add("Magby");
+    names.add("Drednaw");
+    names.add("Nuzleaf");
+    names.add("Munchlax");
+    names.add("Alakazam");
+    names.add("Dustox");
+    names.add("Rotom");
+    names.add("Guzzlord");
+    names.add("Raikou");
+    names.add("Aurorus");
+    names.add("Torterra");
+    names.add("Armaldo");
+    names.add("Skwovet");
+    names.add("Groudon");
+    names.add("Machamp");
+    names.add("Shinx");
+    names.add("Hoothoot");
+    names.add("Seedot");
+    names.add("Ninjask");
+    names.add("Doduo");
+    names.add("Whismur");
+    names.add("Victini");
+    names.add("Gengar");
+    names.add("Luxray");
+    names.add("Dedenne");
+    names.add("Samurott");
+    names.add("Gligar");
+    names.add("Beedrill");
+
+  
+    name = names.get(num-1);
+
+    return name;
+  }
+}
