@@ -1,0 +1,116 @@
+import java.lang.Math;
+import java.util.ArrayList;
+
+class infoListImage {
+  public String iLI(int num) { 
+    String imagePNG;
+    ArrayList<String> image = new ArrayList<String>();
+  
+    //images
+    image.add("Images/pikachu.png");
+    image.add("Images/poliwag.png");
+    image.add("Images/aggron.png");
+    image.add("Images/marowak.png");
+    image.add("Images/bulbasaur.png");
+    image.add("Images/carvanha.png");
+    image.add("Images/caterpie.png");
+    image.add("Images/butterfree.png");
+    image.add("Images/nidoqueen.png");
+    image.add("Images/exeggutor.png");
+    image.add("Images/magmar.png");
+    image.add("Images/miltank.png");
+    image.add("Images/manectric.png");
+    image.add("Images/zebstrika.png");
+    image.add("Images/serperior.png");
+    image.add("Images/stunfisk.png");
+    image.add("Images/lickilicky.png");
+    image.add("Images/pupitar.png");
+    image.add("Images/zangoose.png");
+    image.add("Images/minun.png");
+    image.add("Images/seviper.png");
+    image.add("Images/togetic.png");
+    image.add("Images/litleo.png");
+    image.add("Images/flaafy.png");
+    image.add("Images/spoink.png");
+    image.add("Images/deerling.png");
+    image.add("Images/mankey.png");
+    image.add("Images/buneary.png");
+    image.add("Images/phanpy.png");
+    image.add("Images/throh.png");
+    image.add("Images/nidoran.png");
+    image.add("Images/drilbur.png");
+    image.add("Images/cubone.png");
+    image.add("Images/magnemite.png");
+    image.add("Images/chikorita.png");
+    image.add("Images/drowzee.png");
+    image.add("Images/jigglypuff.png");
+    image.add("Images/bouffalant.png");
+    image.add("Images/krabby.png");
+    image.add("Images/froakie.png");
+    image.add("Images/abra.png");
+    image.add("Images/wailmer.png");
+    image.add("Images/vigorath.png");
+    image.add("Images/gulpin.png");
+    image.add("Images/luxio.png");
+    image.add("Images/croagunk.png");
+    image.add("Images/drapion.png");
+    image.add("Images/amaura.png");
+    image.add("Images/shuppet.png");
+    image.add("Images/dragonair.png");
+    image.add("Images/nidorino.png");
+    image.add("Images/piplup.png");
+    image.add("Images/prinplup.png");
+    image.add("Images/excadrill.png");
+    image.add("Images/snorlax.png");
+    image.add("Images/staryu.png");
+    image.add("Images/panpour.png");
+    image.add("Images/shellder.png");
+    image.add("Images/diglett.png");
+    image.add("Images/pineco.png");
+    image.add("Images/furret.png");
+    image.add("Images/ivysaur.png");
+    image.add("Images/feraligatr.png");
+    image.add("Images/mareep.png");
+    image.add("Images/tornadus.png");
+    image.add("Images/exeggute.png");
+    image.add("Images/girafarig.png");
+    image.add("Images/tangela.png");
+    image.add("Images/bewear.png");
+    image.add("Images/mawile.png");
+    image.add("Images/starly.png");
+    image.add("Images/crustle.png");
+    image.add("Images/magby.png");
+    image.add("Images/drednaw.png");
+    image.add("Images/nuzleaf.png");
+    image.add("Images/munchlax.png");
+    image.add("Images/alakazam.png");
+    image.add("Images/dustox.png");
+    image.add("Images/rotom.png");
+    image.add("Images/guzzlord.png");
+    image.add("Images/raikou.png");
+    image.add("Images/aurorus.png");
+    image.add("Images/torterra.png");
+    image.add("Images/armaldo.png");
+    image.add("Images/skwovet.png");
+    image.add("Images/groudon.png");
+    image.add("Images/machamp.png");
+    image.add("Images/shinx.png");
+    image.add("Images/hoothoot.png");
+    image.add("Images/seedot.png");
+    image.add("Images/ninjask.png");
+    image.add("Images/doduo.png");
+    image.add("Images/whismur.png");
+    image.add("Images/victini.png");
+    image.add("Images/gengar.png");
+    image.add("Images/luxray.png");
+    image.add("Images/dedenne.png");
+    image.add("Images/samurott.png");
+    image.add("Images/gligar.png");
+    image.add("Images/beedrill.png");
+    
+    
+    imagePNG = image.get(num-1);
+
+    return imagePNG;
+  }
+}
